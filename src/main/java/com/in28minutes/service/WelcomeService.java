@@ -7,6 +7,6 @@ public class WelcomeService{
 	public String retrieveWelcomeMessage() {
 		
 		//Complex method    
-		return "Good Morning";
+		return "Good Morning all";
 	}
 }
