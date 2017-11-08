@@ -1,5 +1,10 @@
 package com.in28minutes.springboot.jpa;
 
-public class UserRepository {
+import java.util.List;
 
+import org.springframework.data.repository.CrudRepository;
+
+public interface UserRepository extends CrudRepository<User, Long>{
+	//Cette méthode est implémentée automatiquement
+	List<User> findByRole(String role);
 }
