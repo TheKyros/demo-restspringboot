@@ -11,11 +11,11 @@ public class BasicConfiguration {
 	private int number;
 	
 	public boolean isValue() {
-		return value;
+		return value;  
 	}
 
 	public String getMessage() {
-		return message;
+		return message; 
 	}
 	
 	public int getNumber() {
