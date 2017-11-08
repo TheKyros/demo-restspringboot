@@ -11,7 +11,6 @@ public class BasicConfiguration {
 	private int number;
 	
 	public boolean isValue() {
-		//test changement
 		return value;  
 	}
 
